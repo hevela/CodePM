@@ -23,3 +23,9 @@ DATABASES = {
         'PASSWORD': 'A8d32e08.',
     }
 }
+
+STATIC_ROOT = ''
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "templates/static"),
+]
